@@ -1,0 +1,591 @@
+*
+{
+    margin: 0;
+    padding: 0;
+  
+}
+nav ul
+{ 
+    margin-right: 50px;
+    color: #888888;
+display:flex;
+list-style-type: none;
+
+}
+li
+{
+    color: #888888;
+    padding: 30px;
+    font-size: 16px;
+   
+    font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-weight: 300;
+    justify-content: space-between;
+}
+#logo
+{
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+    padding-right: 20px;
+    margin-top: -12px;
+
+
+}
+.navigation
+{
+    z-index:1;
+    position: fixed;
+    width: 100%;
+  border-bottom: 2px solid #44d62c;
+    height: 59px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+
+    color: #888888;
+    cursor: pointer;
+
+}
+#shop
+{
+    margin-left: 25px;
+}
+nav
+{
+    display: block;
+    margin-top: -9px;
+}
+#scndbx
+{padding-top: 65px;
+    width: 100%;
+    height: 44px;
+    background-color:#555555;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.centertext
+{
+    margin-top: 10px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    letter-spacing: -.01px;
+    line-height: 20px;
+    font-weight: 200;
+}
+
+.navbar li a:hover
+{
+color: white;
+}
+.underline:hover
+{
+   
+    text-decoration: underline;
+   
+}
+.bigbox
+{
+    
+    text-align: center;
+width: 100%;
+height: 644px;
+background-image:url("/images/barracuda-family-homepage-large.jpg") ;
+
+
+background-position: center top;
+
+}
+.down1
+{
+background-color: #555555;
+}
+.hdset
+{
+ 
+ margin-right: 100px;
+   margin-top: 10px;
+    font-size: 3.5rem;
+    letter-spacing: normal;
+    
+    width: auto;
+    color: #fff;
+font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.homeliving
+{
+    line-height: 0;
+
+}
+.container
+{
+    position: absolute;
+width: 100%;
+text-align: center;
+justify-content: center;
+margin-top: 25px;
+}
+.home
+{line-height: 42px;
+    font-size: 1.75rem;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    font-weight:400 ;
+    color: #fff;
+    inline-size: 1px;
+}
+.learn
+{
+    padding-top: 20px;
+    font-size: 1.3125rem;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+font-weight: 300;
+line-height: normal;
+text-decoration: none;
+color: #fff;
+
+}
+.more
+{
+    padding-left: 10px;
+}
+.icon
+{
+   width: 20px;
+   height: 20px; 
+}
+.learn:hover
+{
+    padding-bottom: value;
+    border-bottom: 1px solid;
+
+}
+a
+{
+    text-decoration: none;
+}
+.chair
+{
+    border-top: solid 10px rgb(49, 44, 37);
+    
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    text-align: center;
+    object-fit: contain;
+    border-bottom: solid  10px rgb(49, 44, 37 );
+   
+
+background-size: cover;
+background-image: url("/images/razer-enki-pro-gaming-chair-hero-desktop.jpg");
+
+   
+}
+.lap
+{
+    width: 100%;
+    height: 650px;
+    
+    background-image: url("/images/razer-blade14-2022-homepage-desktop.jpg");
+    background-position: center ;
+    object-fit: contain;
+    text-align: center;
+    border-bottom: solid  10px rgb(49, 44, 37 );
+}
+.exclusive
+{
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+font-weight: 300;
+color: black;
+}
+.exlus{
+    text-align: center;
+    height: 40px;
+    width: 100px;
+text-align: left;
+padding-left: 10px;
+background-color: orange;
+}
+.random
+{
+    top: 5px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   
+   
+   margin-bottom: 524px;
+}
+#ex
+{
+
+}
+.razer
+{
+    font-size: small;
+    font-weight: 600;
+}
+.excu{
+    font-weight: 600;
+}
+
+.razor
+{
+    height: 40px;
+    width: 100px;
+   
+    background-color: orange;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.razor-wrapper
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.razor-wrapper1
+{
+color: #fff;
+}
+.enki
+{
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.ultimate
+{
+    font-size: large;
+font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+font-size: 4rem;
+font-weight: 400;
+line-height: 1.5;
+color: #fff;
+}
+.comf
+{
+    color: #fff;
+}
+.twobox
+{ 
+    border-bottom: solid  10px rgb(49, 44, 37 );
+    width: 100%;
+    height: 568px;
+    background-color: #44d62c;
+    display: flex;
+
+   
+}
+.first
+{
+    background-position: center;
+   
+    justify-content: center;
+    color: white;
+    background-image: url(/images/razer-viper-v2-pro-b-950x580-desktop.jpg);
+    display: flex;
+    width: 50%;
+    height: 568px;
+ text-align: center;
+ 
+  
+
+}
+.second
+{display: flex;
+    justify-content: center;
+    background-position: center;
+    background-image: url("/images/chroma-mania-campaign-b-950x580-desktop.jpg");
+    background-color: aqua;
+    width: 50%;
+    height: 568px;
+    border-left:rgb(49, 44, 37 )10px solid;
+    text-align: center;
+}
+.mouse
+{
+    padding-top: 15px;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+font-size: 40px;
+    width: 400px;
+    height: 15px;
+    font-weight: 550;
+   
+   
+}
+.mousedown
+{
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+
+ 
+}
+.doublewrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.white
+{
+    color: #fff;
+}
+.learnsmall
+{
+    color: #fff;
+    font-size: 15px;
+    font-family: "RazerF5",Arial,Helvetica,sans-serif;
+}
+#smallarrow
+{
+height: 18px;
+width: 18px;
+}
+.buysmall
+{
+padding-left: 18px;
+
+}
+.learnsmall:hover
+{
+    border-bottom: 1px solid;
+}
+.txtcenter
+{
+    
+    width: 10px;
+    height: 10px;
+    background-color: #44d62c;
+    left: 50%;
+}
+
+
+.desktop
+{
+    padding-top: 15px;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+font-size: 40px;
+    width: 400px;
+    height: 15px;
+    font-weight: 550;
+   
+}
+.third
+{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-image: url("/images/new-razer-blade-15-2022-b-950x580-desktop.jpg");
+    background-color: aqua;
+    width: 50%;
+    height: 568px;
+    
+    text-align: center;
+}
+.fourth
+{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-image: url("/images/razer-huntsman-mini-analog-b-950x580-desktop.jpg");
+    background-color: aqua;
+    width: 50%;
+    height: 568px;
+    border-left:rgb(49, 44, 37 )10px solid;
+    text-align: center;
+}
+.fifth
+{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-image: url("/images/genshin-impact_newseason.jpg");
+    background-color: aqua;
+    width: 50%;
+    height: 568px;
+  
+    text-align: center;
+}
+.sixth
+{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-image: url("/images/iskur-b-950x580-desktop.jpg");
+    background-color: aqua;
+    width: 50%;
+    height: 568px;
+    border-left:rgb(49, 44, 37 )10px solid;
+    text-align: center;
+}
+.lastbox
+{
+    width: 100%;
+    height: 370px;
+}
+.bottumlast
+{
+    width: 100%;
+    height: 400px;
+    background-color: #111;
+
+}
+.bottumlastcontain
+{
+    padding-top: 20px;
+    background-color: #111;
+    width: 80%;
+    height: 300px;
+    
+margin-left: 10%;
+display: flex;
+justify-content: left;
+
+}
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+ul
+{
+    list-style: none;
+}
+.lastlist
+{
+    padding: 0px;
+    line-height: 2;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.firstcol
+{
+    width: 180px;
+    padding-left:85px;
+}
+.shop
+{font-size: 12px;
+    color: #fff;
+   
+   padding-bottom: 5px;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.content
+{
+   font-size: small;
+    color: #999;
+}
+.iconz
+{
+    padding: 0px;
+    
+width: 22px;
+height: 22px;
+}
+.iconze
+{
+    padding: 8px;
+}
+.insta
+{padding-left:69px;
+    height: 30px;
+    width: 150px;
+    
+}
+.twitt
+{
+    line-height: 5px;
+display: flex;
+
+
+}
+
+.bygame
+{
+    font-size: 0.9rem;
+letter-spacing: 0.5px;
+color: #44d62c;
+}
+
+.content:hover
+{
+    color: #fff;
+   text-decoration: underline;
+}
+
+.underline hr
+{
+    margin-left: 153px;
+    width: 80%;
+}
+
+.lastlistrt
+{
+    
+    font-size: 10px;
+    padding: 0px;
+}
+.final
+{
+    margin-top: 10px;
+    margin-left: 350px;
+    width: 700px;
+    height: 30px;
+}
+
+.sitemap
+{
+ padding: 0px;   
+}
+.final ul{
+    display: flex;
+    
+}
+.final ul li
+{
+    
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.ending
+{padding-left: 100px;
+    padding-top: 17px;
+    height: 20px;
+    width: 200px;
+}
+
+.twise
+{
+    display: flex;
+}
+.ending a
+{color: #999;
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: small
+    
+}.ending a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+.final ul li a{
+    color: #999;
+}
+.final ul li a:hover
+{
+color: #fff;
+text-decoration: underline;
+}
